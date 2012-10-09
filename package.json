@@ -1,0 +1,25 @@
+{
+	"author": "Benjamin Conlan",
+	"name": "foldr.jvmpin",
+	"description": "Nailgun protocol implementation for node communction to jvm instance",
+	"version": "0.1.0",
+	"bugs": {
+		"url": "https://bitbucket.org/foldr/jvmpin/issues",
+	},
+	"repositories": {
+		"type": "git",
+		"url": "https://bitbucket.org/foldr/foldr.jvmpin.git"
+	},
+	"license": {
+		"type": "EPL",
+		"http://opensource.org/licenses/EPL-1.0"
+	},
+	"engines": {
+		"node": "~0.8"
+	},
+	"keywords": [
+		"nailgun",
+		"jvm",
+		"java"
+	]
+}
