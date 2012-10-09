@@ -21,6 +21,7 @@
 			<groupId>com.martiansoftware</groupId>
 			<artifactId>nailgun</artifactId>
 			<version>0.7.1</version>
+			<scope>runtime</scope>
 		</dependency>
 	</dependencies>
 
@@ -33,7 +34,7 @@
 				<configuration>
 					<archive>
 						<manifest>
-							<mainClass>io.foldr.couchserv.App</mainClass>
+							<mainClass>com.martiansoftware.nailgun.NGServer</mainClass>
 							<addClasspath>true</addClasspath>
 							<classpathPrefix>lib/</classpathPrefix>
 						</manifest>
