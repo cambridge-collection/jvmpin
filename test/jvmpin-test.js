@@ -38,14 +38,12 @@ function basicArgumentsTest() {
 function basicChunkReading() {
 	var client = jvmpin.createConnection('io.foldr.ngtesthost.Stdout')
 		.on('data', function(data) {
-			var chunks = jvmpin.readChunks(data);
-			chunks.forEach(function(chunk) {
-				switch (chunk.type) {
-					case jvmpin.CHUNK_TYPE.STDOUT: console.log(chunk.data); break;
-					case jvmpin.CHUNK_TYPE.STDERR: console.error(chunk.data); break;
-					default: console.log(chunk.type + " - " + chunk.data,toString());
-				}
-			});
+			var chunk = jvmpin.readChunk(data);
+			switch (chunk.type) {
+				case jvmpin.CHUNK_TYPE.STDOUT: console.log(chunk.data.toString()); break;
+				case jvmpin.CHUNK_TYPE.STDERR: console.error(chunk.data.toString()); break;
+				default: console.log(chunk);
+			}
 		}).on('end', function() {
 			console.log('disconnected from server');
 		}).on('error', function(e) {
@@ -53,4 +51,25 @@ function basicChunkReading() {
 		});
 }
 
-basicChunkReading();
+function basicCommunication() {
+	var client = jvmpin.createConnection('io.foldr.ngtesthost.Stdin', function() {
+			console.log("connected");
+		}).on('data', function(data) {
+			var chunk = jvmpin.readChunk(data);
+			switch (chunk.type) {
+				case jvmpin.CHUNK_TYPE.STDOUT: console.log(chunk.data.toString()); break;
+				case jvmpin.CHUNK_TYPE.STDERR: console.error(chunk.data.toString()); break;
+				default: console.log(chunk);
+			}
+		}).on('end', function() {
+			console.log('disconnected from server');
+		}).on('error', function(e) {
+			console.log('connection error', e);
+		});
+
+	process.stdin.on('data', function(data) {
+		client.write(data)
+	});
+}
+
+basicCommunication();
