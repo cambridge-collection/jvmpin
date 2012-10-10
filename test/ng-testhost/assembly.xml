@@ -5,7 +5,7 @@
 
 	<id>full</id>
 	<formats>
-		<format>jar</format>
+		<format>zip</format>
 	</formats>
 	<includeBaseDirectory>false</includeBaseDirectory>
 	<files>
