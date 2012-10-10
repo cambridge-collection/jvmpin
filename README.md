@@ -1,5 +1,4 @@
 # JVMPin
-========
 
 JVMPin provides a nodejs protocol implementation of the nailgun protocol
 for communication to nail gun hosted java applications.
@@ -19,7 +18,14 @@ resolved via the [maven repository](http://ooo-maven.googlecode.com/hg/repositor
 
 ## Usage
 
+The JVMPin library can be installed via npm by adding the following to
+your package.json's dependencies or devDependencies sections:
+```json
+"dependencies": {
+	"io.foldr.jvmpin": "1.x"
+}
 
+```
 
 ## License
 
