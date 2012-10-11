@@ -2,7 +2,7 @@
 	"author": "Benjamin Conlan",
 	"name": "jvmpin",
 	"description": "Nailgun client",
-	"version": "1.0.3",
+	"version": "1.0.4",
 	"bugs": {
 		"url": "https://bitbucket.org/foldr/jvmpin/issues"
 	},
