@@ -22,7 +22,7 @@ The JVMPin library can be installed via npm by adding the following to
 your package.json's dependencies or devDependencies sections:
 ```json
 "dependencies": {
-	"io.foldr.jvmpin": "1.x"
+	"jvmpin": "1.x"
 }
 
 ```
