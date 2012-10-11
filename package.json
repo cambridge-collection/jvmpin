@@ -1,6 +1,6 @@
 {
 	"author": "Benjamin Conlan",
-	"name": "io.foldr.jvmpin",
+	"name": "jvmpin",
 	"description": "Nailgun protocol implementation for node communction to jvm instance",
 	"version": "1.0.0",
 	"bugs": {
