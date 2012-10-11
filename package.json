@@ -8,7 +8,7 @@
 	},
 	"repositories": {
 		"type": "git",
-		"url": "https://bitbucket.org/foldr/foldr.jvmpin.git"
+		"url": "https://bitbucket.org/foldr/jvmpin.git"
 	},
 	"licenses": [{
 		"type": "EPL",
