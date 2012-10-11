@@ -2,7 +2,7 @@
 	"author": "Benjamin Conlan",
 	"name": "jvmpin",
 	"description": "Nailgun protocol implementation for node communction to jvm instance",
-	"version": "1.0.1",
+	"version": "1.0.2",
 	"bugs": {
 		"url": "https://bitbucket.org/foldr/jvmpin/issues"
 	},
@@ -14,6 +14,7 @@
 		"type": "EPL",
 		"url": "http://opensource.org/licenses/EPL-1.0"
 	}],
+	"main": "lib/jvmpin",
 	"engines": {
 		"node": "~0.8"
 	},
