@@ -35,12 +35,16 @@ Then simple connect to the nailgun instance using:
 
 var jvmpin = require('jvmpin');
 
-jvmpin.createConnection(1234, 'localhost').spawn('your.main.Class');
+var proc = jvmpin.createConnection(1234, 'localhost').spawn('your.main.Class');
+
+// now to take over the currently running context by binding stdio
+proc.stdout.pipe(process.stdout);
+proc.stderr.pipe(process.stderr);
+
+process.stdin.pipe(proc.stdin);
+proc.on('exit', function(c) { process.exit(); })
 
 ```
-
-This will bind the STDIO streams to the executing process. (something
-that is yet to be corrected).
 
 For more information please consult the [API
 Documentation](https://bitbucket.org/foldr/jvmpin/raw/master/lib/jvmpin.js)
