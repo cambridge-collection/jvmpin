@@ -6,7 +6,7 @@
 	"bugs": {
 		"url": "https://bitbucket.org/foldr/jvmpin/issues"
 	},
-	"repositories": {
+	"repository": {
 		"type": "git",
 		"url": "https://bitbucket.org/foldr/jvmpin.git"
 	},
