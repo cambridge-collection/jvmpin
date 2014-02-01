@@ -1,7 +1,6 @@
 # JVMPin
 
-JVMPin provides a nodejs implementation of the nailgun protocol
-providing communication to nailgun hosted java applications.
+JVMPin provides a nodejs implementation of the nailgun protocol.
 
 Information about nailgun can be found at
 [http://www.martiansoftware.com/nailgun/](http://www.martiansoftware.com/nailgun/).
@@ -28,9 +27,9 @@ your package.json's dependencies or devDependencies sections:
 ```
 
 You will need to start your nailgun instance in another process (this is
-a task I leave to the reader.
+a task I leave to the reader).
 
-Then simple connect to the nailgun instance using:
+Then simply connect to the nailgun instance using:
 ```javascript
 
 var jvmpin = require('jvmpin');
