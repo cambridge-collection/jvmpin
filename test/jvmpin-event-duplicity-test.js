@@ -9,7 +9,7 @@ var jvmpin = require('../lib/jvmpin');
 var assert = require('assert');
 
 var connection = jvmpin.createConnection();
-var proc = connection.spawn('Hello');
+var proc = connection.spawn('ng-cp');
 
 var exitEmitted = 0;
 proc.on('exit', function () {
