@@ -7,7 +7,7 @@
  * This sample should echo out all text sent to the server. (except `quit` which will
  * close the connection on the server)
  *
- * Copyright(c) 2012 Foldr
+ * Copyright(c) 2014 Foldr
  * EPL Licensed
  */
 var jvmpin = require('../lib/jvmpin');
