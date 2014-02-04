@@ -48,8 +48,12 @@ proc.on('exit', function(c) { process.exit(); })
 For more information please consult the [API
 Documentation](https://bitbucket.org/foldr/jvmpin/raw/master/lib/jvmpin.js)
 
+## Contributors
+
+[Eric McCarthy](http://limulus.net/)
+
 ## License
 
-Copyright © 2012 Foldr 
+Copyright © 2012 Foldr
 
 Distributed under the Eclipse Public License.
