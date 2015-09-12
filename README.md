@@ -51,9 +51,11 @@ Documentation](https://bitbucket.org/foldr/jvmpin/raw/master/lib/jvmpin.js)
 ## Contributors
 
 [Eric McCarthy](http://limulus.net/)
+[Markus Hedvall](https://bitbucket.org/markushedvall/)
+
 
 ## License
 
-Copyright © 2014 Foldr
+Copyright © 205 Benjamin Conlan
 
 Distributed under the Eclipse Public License.
