@@ -46,7 +46,7 @@ proc.on('exit', function(c) { process.exit(); })
 ```
 
 For more information please consult the [API
-Documentation](https://bitbucket.org/foldr/jvmpin/raw/master/lib/jvmpin.js)
+Documentation](https://bitbucket.org/bjconlan/jvmpin/raw/master/lib/jvmpin.js)
 
 ## Contributors
 
