@@ -51,11 +51,12 @@ Documentation](https://bitbucket.org/bjconlan/jvmpin/raw/master/lib/jvmpin.js)
 ## Contributors
 
 [Eric McCarthy](http://limulus.net/)
+
 [Markus Hedvall](https://bitbucket.org/markushedvall/)
 
 
 ## License
 
-Copyright Â© 215 Benjamin Conlan
+Copyright © 2018 Benjamin Conlan
 
 Distributed under the Eclipse Public License.
