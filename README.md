@@ -3,17 +3,18 @@
 JVMPin provides a nodejs implementation of the nailgun protocol.
 
 Information about nailgun can be found at
-[http://www.martiansoftware.com/nailgun/](http://www.martiansoftware.com/nailgun/).
-While the nailgun native library and java dependencies can either be found at
-[sourceforge](http://sourceforge.net/projects/nailgun/files/nailgun/) or
-resolved via the [maven repository](http://ooo-maven.googlecode.com/hg/repository) using the dependency:
+[http://www.martiansoftware.com/nailgun/](http://www.martiansoftware.com/nailgun/). Nailgun is currently maintained by Facebook at https://github.com/facebook/nailgun/.
+
+Java dependencies can be found at Maven Central:
 ```xml
 <dependency>
-	<groupId>com.martiansoftware</groupId>
-	<artifactId>nailgun</artifactId>
-	<version>0.7.1</version>
+  <groupId>com.facebook</groupId>
+  <artifactId>nailgun-server</artifactId>
+  <version>1.0.0</version>
 </dependency>
 ```
+
+Older releases (including command line client binaries) can be found at [sourceforge](https://sourceforge.net/projects/nailgun/files/nailgun/).
 
 ## Usage
 
