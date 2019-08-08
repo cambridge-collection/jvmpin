@@ -57,6 +57,6 @@ Documentation](https://bitbucket.org/bjconlan/jvmpin/raw/master/lib/jvmpin.js)
 
 ## License
 
-Copyright © 2018 Benjamin Conlan
+Copyright Â© 2018 Benjamin Conlan
 
 Distributed under the Eclipse Public License.
