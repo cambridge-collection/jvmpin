@@ -27,11 +27,14 @@
     }
   ],
   "dependencies": {
-    "bufferstream": "~0.6"
+    "@types/node": "^12.7.1",
+    "object.values": "^1.1.0",
+    "readable-stream": "^3.4.0"
   },
   "main": "lib/jvmpin",
+  "types": "lib/jvmpin.d.ts",
   "engines": {
-    "node": "~0.8"
+    "node": ">=v4.9.1"
   },
   "license": "EPL-1.0",
   "keywords": [
