@@ -16,8 +16,8 @@ var proc = client.spawn('io.foldr.ngtesthost.StdoutBinary', ['' + TEST_NUM]);
 var chunks = [];
 proc.stdout.on('data', function(chunk) { chunks.push(chunk); });
 proc.stdout.on('end', function() {
-  var data = Buffer.concat(chunks);
-  // Java int is signed big endian
-  var int = data.readInt32BE();
-  assert(int === TEST_NUM, 'Integer not in correct binary');
+    var data = Buffer.concat(chunks);
+    // Java int is signed big endian
+    var int = data.readInt32BE();
+    assert(int === TEST_NUM, 'Integer not in correct binary');
 });
