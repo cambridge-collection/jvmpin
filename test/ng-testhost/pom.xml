@@ -17,6 +17,12 @@
 			<scope>runtime</scope>
 		</dependency>
 		<dependency>
+			<groupId>com.martiansoftware</groupId>
+			<artifactId>nailgun-server</artifactId>
+			<version>0.9.1</version>
+			<scope>runtime</scope>
+		</dependency>
+		<dependency>
 			<groupId>com.facebook</groupId>
 			<artifactId>nailgun-examples</artifactId>
 			<version>1.0.0</version>

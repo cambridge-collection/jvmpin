@@ -5,12 +5,12 @@
 
 'use strict';
 
-var jvmpin = require('../lib/jvmpin');
+var createTestConnection = require('./create-connection');
 var assert = require('assert');
 
 var TEST_NUM = 1695609641;
 
-var client = jvmpin.createConnection();
+var client = createTestConnection();
 var proc = client.spawn('io.foldr.ngtesthost.StdoutBinary', ['' + TEST_NUM]);
 
 var chunks = [];

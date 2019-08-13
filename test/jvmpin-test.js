@@ -10,9 +10,9 @@
  * Copyright(c) 2014 Foldr
  * EPL Licensed
  */
-var jvmpin = require('../lib/jvmpin');
+var createTestConnection = require('./create-connection');
 
-var client = jvmpin.createConnection();
+var client = createTestConnection();
 var proc = client.spawn('io.foldr.ngtesthost.Stdin');
 
 proc.stdout.pipe(process.stdout);

@@ -5,10 +5,10 @@
 
 'use strict';
 
-var jvmpin = require('../lib/jvmpin');
+var createTestConnection = require('./create-connection');
 var assert = require('assert');
 
-var connection = jvmpin.createConnection();
+var connection = createTestConnection();
 var proc = connection.spawn('ng-cp');
 
 var exitEmitted = 0;

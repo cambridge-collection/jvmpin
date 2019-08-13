@@ -49,6 +49,14 @@ proc.on('exit', function(c) { process.exit(); })
 For more information please consult the [API
 Documentation](https://bitbucket.org/bjconlan/jvmpin/raw/master/lib/jvmpin.js)
 
+## Testing
+
+To run the test suite, clone the repository and run:
+```console
+$ npm install
+$ test/run-tests.sh
+```
+
 ## Contributors
 
 [Eric McCarthy](http://limulus.net/)

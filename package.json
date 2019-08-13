@@ -41,5 +41,10 @@
     "nailgun",
     "jvm",
     "java"
-  ]
+  ],
+  "devDependencies": {
+    "bats": "^1.1.0",
+    "dev-null": "^0.1.1",
+    "docopt": "^0.6.2"
+  }
 }
