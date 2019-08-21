@@ -20,3 +20,6 @@ indent_size = 2
 # Whitespace in blank lines between options in the Options: section are
 # required due to a bug in the docopt parser...
 trim_trailing_whitespace = false
+
+[bitbucket-pipelines.yml]
+indent_style = space
