@@ -63,6 +63,8 @@ $ test/run-tests.sh
 
 [Markus Hedvall](https://bitbucket.org/markushedvall/)
 
+[Hal Blackburn](https://github.com/h4l)
+
 
 ## License
 
