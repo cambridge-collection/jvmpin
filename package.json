@@ -43,7 +43,7 @@
   "main": "lib/jvmpin",
   "types": "lib/jvmpin.d.ts",
   "engines": {
-    "node": ">=v4.9.1"
+    "node": ">=v10"
   },
   "license": "EPL-1.0",
   "keywords": [
