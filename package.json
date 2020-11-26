@@ -30,6 +30,11 @@
       "url": "http://opensource.org/licenses/EPL-1.0"
     }
   ],
+  "scripts": {
+    "ci-test": "npm ci && npm run test",
+    "test": "test/run-tests.sh",
+    "clean": "rm -rf node_modules test/ng-testhost/target"
+  },
   "dependencies": {
     "@types/node": "^12.7.1",
     "object.values": "^1.1.0",
