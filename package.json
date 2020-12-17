@@ -18,11 +18,11 @@
     }
   ],
   "bugs": {
-    "url": "https://bitbucket.org/bjconlan/jvmpin/issues"
+    "url": "https://bitbucket.org/CUDL/jvmpin/issues"
   },
   "repository": {
     "type": "git",
-    "url": "https://bitbucket.org/bjconlan/jvmpin.git"
+    "url": "https://bitbucket.org/CUDL/jvmpin.git"
   },
   "licenses": [
     {
