@@ -61,6 +61,14 @@ backpressureTest() {
   node --expose-gc jvmpin-backpressure-test.js $@
 }
 
+@test "clean shutdown - normal exit" {
+  node jvmpin-clean-shutdown-test.js
+}
+
+@test "clean shutdown - after kill()" {
+  node jvmpin-clean-shutdown-test.js --kill
+}
+
 PID_FILE="$BATS_TMPDIR/test.bats.pid"
 NAILGUN_SERVER_JAR="$BATS_TEST_DIRNAME/ng-testhost/target/ng-testhost.jar"
 NG_0_9_1_PORT=2114
