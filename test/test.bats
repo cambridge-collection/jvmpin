@@ -17,11 +17,11 @@
 }
 
 @test "roundtrip 1" {
-  echo hi | node jvmpin-multiple-spawn-test.js
+  echo hi | node jvmpin-roundtrip-test.js
 }
 
 @test "roundtrip 2" {
-  head -c 10M /dev/urandom | node jvmpin-multiple-spawn-test.js
+  head -c 10M /dev/urandom | node jvmpin-roundtrip-test.js
 }
 
 @test "interactive prompt" {
