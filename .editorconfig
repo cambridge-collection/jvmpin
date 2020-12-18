@@ -21,5 +21,6 @@ indent_size = 2
 # required due to a bug in the docopt parser...
 trim_trailing_whitespace = false
 
-[bitbucket-pipelines.yml]
+[.github/**/*.yml]
 indent_style = space
+indent_size = 2
