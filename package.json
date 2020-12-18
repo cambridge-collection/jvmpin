@@ -18,11 +18,11 @@
     }
   ],
   "bugs": {
-    "url": "https://bitbucket.org/CUDL/jvmpin/issues"
+    "url": "https://github.com/cambridge-collection/jvmpin/issues"
   },
   "repository": {
     "type": "git",
-    "url": "https://bitbucket.org/CUDL/jvmpin.git"
+    "url": "https://github.com/cambridge-collection/jvmpin.git"
   },
   "licenses": [
     {
